@@ -1,8 +1,16 @@
 # Readme
 
-Gutenberg's current license is available at [LICENSE.md](https://github.com/WordPress/gutenberg/blob/trunk/LICENSE.md) file.
+This repository holds the information relevant to the requests for consent from [Gutenberg's](https://github.com/WordPress/gutenberg) contributors to dual-license their past contributions to Gutenberg under the GPL and MPL (more information available here). For more information, you can look at the [initial discussion issue on GitHub](https://github.com/WordPress/gutenberg/issues/23651) as well as the [initial proposal post](https://make.wordpress.org/core/2020/09/21/proposal-dual-licensing-gutenberg-under-gpl-v2-0-and-mpl-v2-0/) on 21 September 2020, and [updated proposal post](https://make.wordpress.org/core/2021/03/05/dual-licensing-gutenberg-next-steps/) on Make/Core.
+
+# Format of `dual-license-responses.json`
 
 The [`dual-license-responses.json`](data/dual-license-responses.json) file records responses relevant to the work to update Gutenberg to be dual-licensed from (#31893)[https://github.com/WordPress/gutenberg/issues/31893] and (#31913)[https://github.com/WordPress/gutenberg/issues/31913].
+
+The json has two top level nodes. The `claimedEmails` node includes an object in `claimedEmails.responses` for each email address that has contributed to Gutenberg's `trunk` branch (i.e., by being an author or coauther of a commit on that branch) but was not associated with any GitHub account. 
+
+The `gitHubUserContributors` node includes an object in `gitHubUserContributors.responses` for each GitHub user who has contributed to Gutenberg's `trunk` branch. Once a grant or denial of consent is received for a particular contributor, the relevant `gitHubUserContributors.responses` object will be updated with a `consent` boolean, with `true` representing a grant of consent to dual-licensing the user's past contributions and `false` representing a denial of consent. If there is no `consent` field for a particular `gitHubUserContributions.responses` object, that means we have not received either a grant or denial of consent.
+
+When a relevant comment is noted for either the `claimedEmails` or `gitHubUserContributors`, information about that comment is recorded in the `comment` field on the relevant node.
 
 # Checking the Latest Responses
 
@@ -11,14 +19,6 @@ Execute `node scripts/update-dual-license-responses.js` to update [`dual-license
 Running that script will download all the comments on each issue, allow the user to process each new comment individually (previously processed comments are skipped), and update the [`dual-license-responses.json`](data/dual-license-responses.json) file appropriately based on the user's input.
 
 This script will automatically run [`summarize-dual-license-responses.js`](scripts/summarize-dual-license-responses.js), which prints out some current status about the current status of the requests for consent and updates the [`status.md`](status.md) file.
-
-# Format of `dual-license-responses.json`
-
-The json has two top level nodes. The `claimedEmails` node includes an object in `claimedEmails.responses` for each email address that has contributed to Gutenberg's `trunk` branch (i.e., by being an author or coauther of a commit on that branch) but was not associated with any GitHub account. 
-
-The `gitHubUserContributors` node includes an object in `gitHubUserContributors.responses` for each GitHub user who has contributed to Gutenberg's `trunk` branch. Once a grant or denial of consent is received for a particular contributor, the relevant `gitHubUserContributors.responses` object will be updated with a `consent` boolean, with `true` representing a grant of consent to dual-licensing the user's past contributions and `false` representing a denial of consent. If there is no `consent` field for a particular `gitHubUserContributions.responses` object, that means we have not received either a grant or denial of consent.
-
-When a relevant comment is noted for either the `claimedEmails` or `gitHubUserContributors`, information about that comment is recorded in the `comment` field on the relevant node.
 
 # How Was `dual-license-responses.json` Initialized?
 
