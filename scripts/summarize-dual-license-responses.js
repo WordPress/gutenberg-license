@@ -83,7 +83,8 @@ ${spaced(consentResponses.consenting)}
 ${spaced(consentResponses.denying)}
 
 ### Users Who Have Not Responded Yet
-${spaced(consentResponses.noResponse)}`
+${spaced(consentResponses.noResponse)}
+`
 
 const statusFile = 'status.md'
 console.log(`Updating ${statusFile} file...`)
