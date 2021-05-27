@@ -278,7 +278,7 @@ async function main() {
       await handleConsentIssueComment(comment)
     }
 
-    fs.writeFileSync(jsonFileName, JSON.stringify(preservedJson, null, 2))
+    fs.writeFileSync(jsonFilePath, JSON.stringify(preservedJson, null, 2))
     console.log(`Updated ${jsonFileName}`)
 
     require('./summarize-dual-license-responses')
@@ -286,9 +286,10 @@ async function main() {
 }
 
 const jsonFileName = 'dual-license-responses.json'
+const jsonFilePath = `data/${jsonFileName}`
 // WARNING: 
 // only uncomment the following line if you want to overwrite `dual-license-responses.json` and start over
 // initializeJsonFile(jsonFileName)
 
-const preservedJson = JSON.parse(fs.readFileSync(jsonFileName))
+const preservedJson = JSON.parse(fs.readFileSync(jsonFilePath))
 main()

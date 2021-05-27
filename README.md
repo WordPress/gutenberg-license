@@ -2,15 +2,15 @@
 
 Gutenberg's current license is available at [LICENSE.md](https://github.com/WordPress/gutenberg/blob/trunk/LICENSE.md) file.
 
-The [`dual-license-responses.json`](dual-license-responses.json) file records responses relevant to the work to update Gutenberg to be dual-licensed from (#31893)[https://github.com/WordPress/gutenberg/issues/31893] and (#31913)[https://github.com/WordPress/gutenberg/issues/31913].
+The [`dual-license-responses.json`](data/dual-license-responses.json) file records responses relevant to the work to update Gutenberg to be dual-licensed from (#31893)[https://github.com/WordPress/gutenberg/issues/31893] and (#31913)[https://github.com/WordPress/gutenberg/issues/31913].
 
 # Checking the Latest Responses
 
-Execute `node update-dual-license-responses.js` to update `dual-license-responses.json` with the latest comments on the relevant GitHub issues. This script has been tested with node v14.16.0. In order to run this script, you must have the [GitHub CLI](https://cli.github.com/) installed and configured (the GitHub CLI handled pagination of the search results). 
+Execute `node scripts/update-dual-license-responses.js` to update [`dual-license-responses.json`](data/dual-license-responses.json) with the latest comments on the relevant GitHub issues. This script has been tested with node v14.16.0. In order to run this script, you must have the [GitHub CLI](https://cli.github.com/) installed and configured (the GitHub CLI handled pagination of the search results). 
 
-Running that script will download all the comments on each issue, allow the user to process each new comment individually (previously processed comments are skipped), and update the [`dual-license-responses.json`](dual-license-responses.json) file appropriately based on the user's input.
+Running that script will download all the comments on each issue, allow the user to process each new comment individually (previously processed comments are skipped), and update the [`dual-license-responses.json`](data/dual-license-responses.json) file appropriately based on the user's input.
 
-This script will automatically run [`summarize-dual-license-responses.js`](summarize-dual-license-responses.js), which prints out some current status about the current status of the requests for consent and updates the [`status.md`](status.md) file.
+This script will automatically run [`summarize-dual-license-responses.js`](scripts/summarize-dual-license-responses.js), which prints out some current status about the current status of the requests for consent and updates the [`status.md`](status.md) file.
 
 # Format of `dual-license-responses.json`
 
@@ -150,7 +150,7 @@ cat all_commits_before_2021-04-16.json \
 
 All contributors for which we have GitHub logins were determined by combining the users with commits on `trunk` with the users who had opened or merged any Gutenberg PR.
 
-These users were used to initialize the `gitHubUserContributors.responses` array in [`dual-license-responses.json`](dual-license-responses.json).
+These users were used to initialize the `gitHubUserContributors.responses` array in [`dual-license-responses.json`](data/dual-license-responses.json).
 
 ### Contributors Without An Associated GitHub Account
 
@@ -165,4 +165,4 @@ cat 2021-04-16_authors-and-coauthors-on-trunk.json \
   | uniq
 ```
 
-These emails were used to initialize the `claimedEmails.responses` array in [`dual-license-responses.json`](dual-license-responses.json).
+These emails were used to initialize the `claimedEmails.responses` array in [`dual-license-responses.json`](data/dual-license-responses.json).
