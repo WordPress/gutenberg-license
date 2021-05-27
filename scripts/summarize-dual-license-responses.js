@@ -65,8 +65,8 @@ from the [\`dual-license-responses.json\`](${jsonFilePath}) file.
 
 | Unassociated Email... | Number |
 | --- | --- |
-| Email Has Been Claimed By a GitHub User | ${claimed} |
-| Email Remains Unclaimed | ${notClaimed} |
+| Has Been Claimed By a GitHub User | ${claimed} |
+| Remains Unclaimed | ${notClaimed} |
 
 ## Consent to Dual-License
 
