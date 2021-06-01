@@ -62,7 +62,7 @@ query($endCursor: String) {
       }
     }
   }
-}'
+}
 ```
 
 Note that this query returns _all_ PRs through the date the script is run.
