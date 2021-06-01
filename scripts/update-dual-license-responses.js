@@ -259,7 +259,7 @@ function evaluatePaginatedJsonString(string){
 }
 
 async function main() {
-    console.log(`\nThis script does persist any changes to the ${jsonFileName} file until the very end of the script.`)
+    console.log(`\nThis script doesn't persist any changes to the ${jsonFileName} file until the very end of the script.`)
     console.log('\nIf you make any mistake while running this script, just cancel the script and start over. 😀\n')
     await waitForEnter()
 
