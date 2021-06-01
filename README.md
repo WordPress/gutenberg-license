@@ -137,7 +137,7 @@ $ cat all_commits_before_2021-04-16.json \
 false
 ```
 
-The list of all "authors" on all these PR included every "author" returned here, so we are fine just including everyone listed as in the "authors" object in the above response:
+The list of all "authors" on all these commits included every "author" returned here, so we are fine just including everyone listed as in the "authors" object in the above response:
 
 ```
 cat all_commits_before_2021-04-16.json \
