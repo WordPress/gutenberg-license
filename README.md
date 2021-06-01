@@ -68,7 +68,7 @@ query($endCursor: String) {
 Note that this query returns _all_ PRs through the date the script is run.
 </details>
 
-Although this query captures logins of both the "author" and the person that merged each PR, the data shows that there is no one who has merged prs who has not also authored at least one PR. In other words, including logins from the "mergedBy" field does not add any additional contributors beyond those captured by the "author" field.
+Although this query captures logins of both the "author" and the person that merged each PR, the data shows that there is no one who has merged a PR who has not also authored at least one PR. In other words, including logins from the "mergedBy" field does not add any additional contributors beyond those captured by the "author" field.
 
 The authors of the PRs were extracted by running 
 
