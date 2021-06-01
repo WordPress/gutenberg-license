@@ -1,10 +1,10 @@
 # Readme
 
-This repository holds the information relevant to the requests for consent from [Gutenberg's](https://github.com/WordPress/gutenberg) contributors to dual-license their past contributions to Gutenberg under the GPL and MPL (more information available here). For more information, you can look at the [initial discussion issue on GitHub](https://github.com/WordPress/gutenberg/issues/23651) as well as the [initial proposal post](https://make.wordpress.org/core/2020/09/21/proposal-dual-licensing-gutenberg-under-gpl-v2-0-and-mpl-v2-0/) on 21 September 2020, and [updated proposal post](https://make.wordpress.org/core/2021/03/05/dual-licensing-gutenberg-next-steps/) on Make/Core.
+This repository holds the information relevant to the requests for consent from [Gutenberg's](https://github.com/WordPress/gutenberg) contributors to dual-license their past contributions to Gutenberg under the GPL and MPL. For more information, you can look at the [initial discussion issue on GitHub](https://github.com/WordPress/gutenberg/issues/23651) as well as the [initial proposal post](https://make.wordpress.org/core/2020/09/21/proposal-dual-licensing-gutenberg-under-gpl-v2-0-and-mpl-v2-0/) on 21 September 2020, and [updated proposal post](https://make.wordpress.org/core/2021/03/05/dual-licensing-gutenberg-next-steps/) on Make/Core.
 
 # Format of `dual-license-responses.json`
 
-The [`dual-license-responses.json`](data/dual-license-responses.json) file records responses relevant to the work to update Gutenberg to be dual-licensed from (#31893)[https://github.com/WordPress/gutenberg/issues/31893] and (#31913)[https://github.com/WordPress/gutenberg/issues/31913].
+The [`dual-license-responses.json`](data/dual-license-responses.json) file records responses relevant to the work to update Gutenberg to be dual-licensed from [#31893](https://github.com/WordPress/gutenberg/issues/31893) and [#31913](https://github.com/WordPress/gutenberg/issues/31913).
 
 The json has two top level nodes. The `claimedEmails` node includes an object in `claimedEmails.responses` for each email address that has contributed to Gutenberg's `trunk` branch (i.e., by being an author or co-author of a commit on that branch) but was not associated with any GitHub account. 
 
@@ -70,7 +70,7 @@ Note that this query returns _all_ PRs through the date the script is run.
 
 Although this query captures logins of both the "author" and the person that merged each PR, the data shows that there is no one who has merged a PR who has not also authored at least one PR. In other words, including logins from the "mergedBy" field does not add any additional contributors beyond those captured by the "author" field.
 
-The authors of the PRs were extracted by running 
+The authors of the PRs were extracted by piping the output of the above api request for all PRs to jq as follows: 
 
 ```
 cat 2021-04-16_merged-or-open-prs.json \
@@ -157,7 +157,7 @@ These users were used to initialize the `gitHubUserContributors.responses` array
 These users were extracted from the "co-authors" of any PRs on trunk (every commit "author" was covered by the following "coauthors" query), where the email did not have an associated github account (the "user" was null).
 
 ```
-cat 2021-04-16_authors-and-coauthors-on-trunk.json \
+cat all_commits_before_2021-04-16.json \
   | jq '.data.repository.object.history.nodes[].authors.nodes[]
          | select(.user.login == null)
          | .email' --raw-output \
