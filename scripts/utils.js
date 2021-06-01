@@ -18,7 +18,7 @@ function initializeJsonFile(jsonFileName) {
     const toWrite = {
         claimedEmails: {
           description: "The 'handledComments' field represents the databaseId for the comments" +
-            "that have been reviewed and do not need to be reviewed again. The 'responses'" +
+            " that have been reviewed and do not need to be reviewed again. The 'responses'" +
             " field preserves the responses where a GitHub user has confirmed that they authored" +
             " the commits by one of the unassociated committer email addresses.",
           handledComments: [],
