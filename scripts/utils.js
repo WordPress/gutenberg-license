@@ -28,7 +28,7 @@ function initializeJsonFile(jsonFileName) {
         },
         gitHubUserContributors: {
           description: "The 'handledComments' field represents the databaseId for the comments" +
-            "that have been reviewed and do not need to be reviewed again. The 'preservedResponses'" +
+            " that have been reviewed and do not need to be reviewed again. The 'preservedResponses'" +
             " field preserves the responses whether the Gutenberg contributor with the specified `gitHubLogin`" + 
             " has consented to dual-license their past contributions. The consents field is a boolean " + "representing the contributor's response, with `undefined` indicating that no response has been " + 
             "received. The `responses` field records the details of the contributor's response.",
