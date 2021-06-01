@@ -6,7 +6,7 @@ This repository holds the information relevant to the requests for consent from 
 
 The [`dual-license-responses.json`](data/dual-license-responses.json) file records responses relevant to the work to update Gutenberg to be dual-licensed from (#31893)[https://github.com/WordPress/gutenberg/issues/31893] and (#31913)[https://github.com/WordPress/gutenberg/issues/31913].
 
-The json has two top level nodes. The `claimedEmails` node includes an object in `claimedEmails.responses` for each email address that has contributed to Gutenberg's `trunk` branch (i.e., by being an author or coauther of a commit on that branch) but was not associated with any GitHub account. 
+The json has two top level nodes. The `claimedEmails` node includes an object in `claimedEmails.responses` for each email address that has contributed to Gutenberg's `trunk` branch (i.e., by being an author or co-author of a commit on that branch) but was not associated with any GitHub account. 
 
 The `gitHubUserContributors` node includes an object in `gitHubUserContributors.responses` for each GitHub user who has contributed to Gutenberg's `trunk` branch. Once a grant or denial of consent is received for a particular contributor, the relevant `gitHubUserContributors.responses` object will be updated with a `consent` boolean, with `true` representing a grant of consent to dual-licensing the user's past contributions and `false` representing a denial of consent. If there is no `consent` field for a particular `gitHubUserContributions.responses` object, that means we have not received either a grant or denial of consent.
 
