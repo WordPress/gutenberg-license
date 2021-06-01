@@ -18,7 +18,7 @@ Execute `node scripts/update-dual-license-responses.js` to update [`dual-license
 
 Running that script will download all the comments on each issue, allow the user to process each new comment individually (previously processed comments are skipped), and update the [`dual-license-responses.json`](data/dual-license-responses.json) file appropriately based on the user's input.
 
-This script will automatically run [`summarize-dual-license-responses.js`](scripts/summarize-dual-license-responses.js), which prints out some current status about the current status of the requests for consent and updates the [`status.md`](status.md) file.
+This script will automatically run [`summarize-dual-license-responses.js`](scripts/summarize-dual-license-responses.js), which prints out some current status of the requests for consent and updates the [`status.md`](status.md) file.
 
 # How Was `dual-license-responses.json` Initialized?
 
