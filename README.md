@@ -154,7 +154,7 @@ These users were used to initialize the `gitHubUserContributors.responses` array
 
 ### Contributors Without An Associated GitHub Account
 
-These users were exacted from the "co-authors" of any PRs on trunk (every commit "author" was coverered by the following "coauthors" query), where the email did not have an associated github account (the "user" was null).
+These users were extracted from the "co-authors" of any PRs on trunk (every commit "author" was covered by the following "coauthors" query), where the email did not have an associated github account (the "user" was null).
 
 ```
 cat 2021-04-16_authors-and-coauthors-on-trunk.json \
