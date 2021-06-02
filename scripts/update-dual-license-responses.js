@@ -13,7 +13,6 @@ async function fetchCommentsFor(issueId) {
     try {
         const fetchCommand = fetchCommentsCommand(issueId)
         const results = await execute(fetchCommand)
-        // return JSON.parse(results).data.repository.issue.comments.nodes
         return evaluatePaginatedJsonString(results)
     } catch (err) {
         console.error(err.toString())
@@ -132,6 +131,17 @@ async function handleConsentIssueComment(comment) {
     console.log('********************\n')
 
     const commentConsentResponse = async function (node, consent) {
+
+        const editors = comment.userContentEdits.nodes.map(n => n.editor.login)
+        // if comment has been edited by anyone other than the author
+        if (!editors.every(e => e === author)) {
+            console.log('\x1b[31m%s\x1b[0m', `\n\n******\n\nThis comment was authored by ${author}, but edited by ` +
+                `someone else (${JSON.stringify(editors)}). Take a closer ` +
+                `look at this comment to ensure the author/contributor's intent was not changed before ` +
+                `committing this result.\n\n******\n\n`)
+            await waitForEnter()
+        }
+
         if (node.consent === true) {
           console.log(`\n\nGitHub user ${author} has already consented on ${node.comment.date} with this comment:\n`)
           console.log('\x1b[1m%s\x1b[0m', node.comment.text)
