@@ -987,7 +987,10 @@
       850912087,
       850947667,
       852132528,
-      852776306
+      852776306,
+      853157460,
+      854200547,
+      854571687
     ],
     "responses": [
       {
@@ -1788,7 +1791,15 @@
         }
       },
       {
-        "gitHubLogin": "Rahmon"
+        "gitHubLogin": "Rahmon",
+        "consent": true,
+        "comment": {
+          "date": "2021-06-04T10:16:13Z",
+          "id": 854571687,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-854571687",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-06-04T13:54:47.240Z"
+        }
       },
       {
         "gitHubLogin": "RickorDD"
@@ -3383,7 +3394,15 @@
         "gitHubLogin": "desaiuditd"
       },
       {
-        "gitHubLogin": "designsimply"
+        "gitHubLogin": "designsimply",
+        "consent": true,
+        "comment": {
+          "date": "2021-06-03T21:42:58Z",
+          "id": 854200547,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-854200547",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-06-04T13:54:47.033Z"
+        }
       },
       {
         "gitHubLogin": "desrosj"
@@ -7146,7 +7165,15 @@
         "gitHubLogin": "samueljseay"
       },
       {
-        "gitHubLogin": "saracope"
+        "gitHubLogin": "saracope",
+        "consent": true,
+        "comment": {
+          "date": "2021-06-02T16:08:49Z",
+          "id": 853157460,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-853157460",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-06-04T13:54:46.831Z"
+        }
       },
       {
         "gitHubLogin": "sarahmonster",
