@@ -1005,7 +1005,10 @@
       860166084,
       860298597,
       860822793,
-      861141565
+      861141565,
+      862561237,
+      864805969,
+      864829115
     ],
     "responses": [
       {
@@ -5398,7 +5401,15 @@
         }
       },
       {
-        "gitHubLogin": "laurelfulford"
+        "gitHubLogin": "laurelfulford",
+        "consent": true,
+        "comment": {
+          "date": "2021-06-16T17:14:43Z",
+          "id": 862561237,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-862561237",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-06-21T13:08:11.135Z"
+        }
       },
       {
         "gitHubLogin": "leahkoerper"
@@ -6148,7 +6159,15 @@
         }
       },
       {
-        "gitHubLogin": "mtias"
+        "gitHubLogin": "mtias",
+        "consent": true,
+        "comment": {
+          "date": "2021-06-21T08:16:17Z",
+          "id": 864829115,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-864829115",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-06-21T13:08:11.546Z"
+        }
       },
       {
         "gitHubLogin": "mukeshpanchal27",
@@ -7837,7 +7856,15 @@
         }
       },
       {
-        "gitHubLogin": "tmdk"
+        "gitHubLogin": "tmdk",
+        "consent": true,
+        "comment": {
+          "date": "2021-06-21T07:43:06Z",
+          "id": 864805969,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-864805969",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-06-21T13:08:11.341Z"
+        }
       },
       {
         "gitHubLogin": "tnorthcutt"
