@@ -1008,7 +1008,10 @@
       861141565,
       862561237,
       864805969,
-      864829115
+      864829115,
+      865148927,
+      865154707,
+      865237846
     ],
     "responses": [
       {
@@ -2155,7 +2158,15 @@
         "gitHubLogin": "adamsilverstein"
       },
       {
-        "gitHubLogin": "adamziel"
+        "gitHubLogin": "adamziel",
+        "consent": true,
+        "comment": {
+          "date": "2021-06-21T16:00:58Z",
+          "id": 865154707,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-865154707",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-06-22T13:48:02.659Z"
+        }
       },
       {
         "gitHubLogin": "adekbadek",
@@ -2995,7 +3006,15 @@
         }
       },
       {
-        "gitHubLogin": "chriskmnds"
+        "gitHubLogin": "chriskmnds",
+        "consent": true,
+        "comment": {
+          "date": "2021-06-21T15:54:16Z",
+          "id": 865148927,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-865148927",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-06-22T13:48:02.454Z"
+        }
       },
       {
         "gitHubLogin": "christophherr",
@@ -3698,7 +3717,15 @@
         }
       },
       {
-        "gitHubLogin": "dukex"
+        "gitHubLogin": "dukex",
+        "consent": true,
+        "comment": {
+          "date": "2021-06-21T18:05:30Z",
+          "id": 865237846,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-865237846",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-06-22T13:48:02.866Z"
+        }
       },
       {
         "gitHubLogin": "earnjam",
