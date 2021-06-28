@@ -30,7 +30,8 @@
       867879180,
       867903334,
       867969241,
-      868443141
+      868443141,
+      869493958
     ],
     "responses": [
       {
@@ -98,7 +99,15 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "daniel@relativemarketing.co.uk"
+        "unassociatedCommitterEmail": "daniel@relativemarketing.co.uk",
+        "comment": {
+          "gitHubLogin": "mrmadhat",
+          "date": "2021-06-28T08:42:49Z",
+          "id": 869493958,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-869493958",
+          "text": "I am the author of all Gutenberg commits from daniel@relativemarketing.co.uk",
+          "preservedToJsonOn": "2021-06-28T19:52:39.613Z"
+        }
       },
       {
         "unassociatedCommitterEmail": "david.aguilera@neliosoftware.com",
@@ -1084,7 +1093,9 @@
       867275515,
       867650937,
       868014514,
-      868444019
+      868444019,
+      868887567,
+      869948130
     ],
     "responses": [
       {
@@ -3948,7 +3959,15 @@
         "gitHubLogin": "ephox-mogran"
       },
       {
-        "gitHubLogin": "epiqueras"
+        "gitHubLogin": "epiqueras",
+        "consent": true,
+        "comment": {
+          "date": "2021-06-28T19:08:54Z",
+          "id": 869948130,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-869948130",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-06-28T19:52:47.734Z"
+        }
       },
       {
         "gitHubLogin": "ericmurphyxyz"
@@ -6285,7 +6304,15 @@
         }
       },
       {
-        "gitHubLogin": "mrmadhat"
+        "gitHubLogin": "mrmadhat",
+        "consent": true,
+        "comment": {
+          "date": "2021-06-25T23:50:51Z",
+          "id": 868887567,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-868887567",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-06-28T19:52:47.533Z"
+        }
       },
       {
         "gitHubLogin": "msaari",
