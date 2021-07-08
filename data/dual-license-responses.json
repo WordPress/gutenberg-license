@@ -31,7 +31,10 @@
       867903334,
       867969241,
       868443141,
-      869493958
+      869493958,
+      876148823,
+      876212110,
+      876247777
     ],
     "responses": [
       {
@@ -179,7 +182,15 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "github@andreidraganescu.info"
+        "unassociatedCommitterEmail": "github@andreidraganescu.info",
+        "comment": {
+          "gitHubLogin": "draganescu",
+          "date": "2021-07-08T07:45:33Z",
+          "id": 876212110,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-876212110",
+          "text": "I am the author of all Gutenberg commits from github@andreidraganescu.info and vagabond@guest.guest.",
+          "preservedToJsonOn": "2021-07-08T13:58:25.305Z"
+        }
       },
       {
         "unassociatedCommitterEmail": "glen.davies@a8c.com"
@@ -419,10 +430,26 @@
         "unassociatedCommitterEmail": "vadim.nicolai@moduscreate.com"
       },
       {
-        "unassociatedCommitterEmail": "vagabond@guest.guest"
+        "unassociatedCommitterEmail": "vagabond@guest.guest",
+        "comment": {
+          "gitHubLogin": "draganescu",
+          "date": "2021-07-08T07:45:33Z",
+          "id": 876212110,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-876212110",
+          "text": "I am the author of all Gutenberg commits from github@andreidraganescu.info and vagabond@guest.guest.",
+          "preservedToJsonOn": "2021-07-08T13:58:35.622Z"
+        }
       },
       {
-        "unassociatedCommitterEmail": "vagrant@homestead"
+        "unassociatedCommitterEmail": "vagrant@homestead",
+        "comment": {
+          "gitHubLogin": "vladanost",
+          "date": "2021-07-08T08:36:49Z",
+          "id": 876247777,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-876247777",
+          "text": "I am the author of all Gutenberg commits from vagrant@homestead",
+          "preservedToJsonOn": "2021-07-08T13:58:35.823Z"
+        }
       },
       {
         "unassociatedCommitterEmail": "vitor@paladini.in"
@@ -1141,7 +1168,10 @@
       874399786,
       874491469,
       874937311,
-      874941849
+      874941849,
+      875748611,
+      875817895,
+      876244874
     ],
     "responses": [
       {
@@ -6799,7 +6829,15 @@
         }
       },
       {
-        "gitHubLogin": "nicolad"
+        "gitHubLogin": "nicolad",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-07T18:07:43Z",
+          "id": 875817895,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-875817895",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-08T13:58:43.806Z"
+        }
       },
       {
         "gitHubLogin": "nielslange",
@@ -6935,7 +6973,15 @@
         }
       },
       {
-        "gitHubLogin": "nukaga"
+        "gitHubLogin": "nukaga",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-07T16:28:13Z",
+          "id": 875748611,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-875748611",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-08T13:58:43.604Z"
+        }
       },
       {
         "gitHubLogin": "null"
@@ -8596,7 +8642,15 @@
         }
       },
       {
-        "gitHubLogin": "vladanost"
+        "gitHubLogin": "vladanost",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-08T08:32:43Z",
+          "id": 876244874,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-876244874",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-08T13:58:44.012Z"
+        }
       },
       {
         "gitHubLogin": "vonloxx",
