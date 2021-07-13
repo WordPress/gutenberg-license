@@ -34,7 +34,10 @@
       869493958,
       876148823,
       876212110,
-      876247777
+      876247777,
+      876642268,
+      876720810,
+      876831249
     ],
     "responses": [
       {
@@ -193,7 +196,15 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "glen.davies@a8c.com"
+        "unassociatedCommitterEmail": "glen.davies@a8c.com",
+        "comment": {
+          "gitHubLogin": "glendaviesnz",
+          "date": "2021-07-08T20:20:58Z",
+          "id": 876720810,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-876720810",
+          "text": "I am the author of all Gutenberg commits from glen.davies@a8c.com",
+          "preservedToJsonOn": "2021-07-13T16:11:17.684Z"
+        }
       },
       {
         "unassociatedCommitterEmail": "grzegorz.marzencki@a8c.com",
@@ -232,7 +243,15 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "jas@src.works"
+        "unassociatedCommitterEmail": "jas@src.works",
+        "comment": {
+          "gitHubLogin": "jaswrks",
+          "date": "2021-07-08T18:10:54Z",
+          "id": 876642268,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-876642268",
+          "text": "I am the author of all Gutenberg commits from jas@src.works.",
+          "preservedToJsonOn": "2021-07-13T16:11:17.476Z"
+        }
       },
       {
         "unassociatedCommitterEmail": "jason@o.lan",
@@ -329,7 +348,15 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "mike.pheasant@ephox.com"
+        "unassociatedCommitterEmail": "mike.pheasant@ephox.com",
+        "comment": {
+          "gitHubLogin": "intronic",
+          "date": "2021-07-09T00:40:52Z",
+          "id": 876831249,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-876831249",
+          "text": "I am the author of the commits\n6f4019c, 4f6ca49, 1e3fdf8\nmike.pheasant@ephox.com",
+          "preservedToJsonOn": "2021-07-13T16:11:50.560Z"
+        }
       },
       {
         "unassociatedCommitterEmail": "msaeed.ma@gmail.com"
@@ -1171,7 +1198,10 @@
       874941849,
       875748611,
       875817895,
-      876244874
+      876244874,
+      876579843,
+      877890105,
+      877946118
     ],
     "responses": [
       {
@@ -3370,7 +3400,15 @@
         }
       },
       {
-        "gitHubLogin": "ck-lee"
+        "gitHubLogin": "ck-lee",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-12T03:43:37Z",
+          "id": 877946118,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-877946118",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-13T16:11:58.071Z"
+        }
       },
       {
         "gitHubLogin": "claudiosanches",
@@ -5040,7 +5078,15 @@
         }
       },
       {
-        "gitHubLogin": "jack-lewin"
+        "gitHubLogin": "jack-lewin",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-08T16:30:06Z",
+          "id": 876579843,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-876579843",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-13T16:11:57.660Z"
+        }
       },
       {
         "gitHubLogin": "jahvi",
@@ -6558,7 +6604,15 @@
         }
       },
       {
-        "gitHubLogin": "momotofu"
+        "gitHubLogin": "momotofu",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-12T00:34:00Z",
+          "id": 877890105,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-877890105",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-13T16:11:57.865Z"
+        }
       },
       {
         "gitHubLogin": "moorscode",
