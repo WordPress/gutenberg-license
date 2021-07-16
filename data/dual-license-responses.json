@@ -1201,7 +1201,12 @@
       876244874,
       876579843,
       877890105,
-      877946118
+      877946118,
+      879313058,
+      879622737,
+      879897832,
+      880243536,
+      880534955
     ],
     "responses": [
       {
@@ -4182,7 +4187,15 @@
         }
       },
       {
-        "gitHubLogin": "eiriarte"
+        "gitHubLogin": "eiriarte",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-13T18:38:25Z",
+          "id": 879313058,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-879313058",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-16T13:55:18.151Z"
+        }
       },
       {
         "gitHubLogin": "elhardoum",
@@ -4447,7 +4460,15 @@
         }
       },
       {
-        "gitHubLogin": "foysalremon"
+        "gitHubLogin": "foysalremon",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-15T09:15:08Z",
+          "id": 880534955,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-880534955",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-16T13:55:40.917Z"
+        }
       },
       {
         "gitHubLogin": "freakpants",
@@ -7248,7 +7269,15 @@
         }
       },
       {
-        "gitHubLogin": "paulwilde"
+        "gitHubLogin": "paulwilde",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-14T22:11:24Z",
+          "id": 880243536,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-880243536",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-16T13:55:40.716Z"
+        }
       },
       {
         "gitHubLogin": "pavlo-tk",
