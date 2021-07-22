@@ -1206,7 +1206,10 @@
       879622737,
       879897832,
       880243536,
-      880534955
+      880534955,
+      882744175,
+      882772900,
+      884980747
     ],
     "responses": [
       {
@@ -4606,7 +4609,15 @@
         }
       },
       {
-        "gitHubLogin": "getsource"
+        "gitHubLogin": "getsource",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-19T17:56:12Z",
+          "id": 882744175,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-882744175",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-22T18:09:49.004Z"
+        }
       },
       {
         "gitHubLogin": "glendaviesnz",
@@ -5581,7 +5592,15 @@
         "gitHubLogin": "jomurgel"
       },
       {
-        "gitHubLogin": "jonathanbardo"
+        "gitHubLogin": "jonathanbardo",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-19T18:41:33Z",
+          "id": 882772900,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-882772900",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-22T18:09:49.212Z"
+        }
       },
       {
         "gitHubLogin": "jordesign",
@@ -7313,7 +7332,15 @@
         }
       },
       {
-        "gitHubLogin": "pbrocks"
+        "gitHubLogin": "pbrocks",
+        "consent": true,
+        "comment": {
+          "date": "2021-07-22T14:57:37Z",
+          "id": 884980747,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-884980747",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-07-22T18:09:49.419Z"
+        }
       },
       {
         "gitHubLogin": "pedro-mendonca",
