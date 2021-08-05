@@ -1209,7 +1209,8 @@
       880534955,
       882744175,
       882772900,
-      884980747
+      884980747,
+      892868455
     ],
     "responses": [
       {
@@ -6410,7 +6411,15 @@
         }
       },
       {
-        "gitHubLogin": "mhull"
+        "gitHubLogin": "mhull",
+        "consent": true,
+        "comment": {
+          "date": "2021-08-04T18:14:03Z",
+          "id": 892868455,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-892868455",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-08-05T20:05:29.616Z"
+        }
       },
       {
         "gitHubLogin": "microbit-mark",
