@@ -38,7 +38,8 @@
       876642268,
       876720810,
       876831249,
-      903741397
+      903741397,
+      910329999
     ],
     "responses": [
       {
@@ -219,7 +220,15 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "hello@themebeans.com"
+        "unassociatedCommitterEmail": "hello@themebeans.com",
+        "comment": {
+          "gitHubLogin": "richtabor",
+          "date": "2021-09-01T14:16:59Z",
+          "id": 910329999,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-910329999",
+          "text": "I am the author of all Gutenberg commits from hello@themebeans.com.",
+          "preservedToJsonOn": "2021-09-01T14:45:38.492Z"
+        }
       },
       {
         "unassociatedCommitterEmail": "hi@themesbycarolina.com",
@@ -1229,7 +1238,9 @@
       901376732,
       901572687,
       901593283,
-      902259282
+      902259282,
+      910089534,
+      910099791
     ],
     "responses": [
       {
@@ -4118,7 +4129,15 @@
         }
       },
       {
-        "gitHubLogin": "dratwas"
+        "gitHubLogin": "dratwas",
+        "consent": true,
+        "comment": {
+          "date": "2021-09-01T09:07:02Z",
+          "id": 910089534,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-910089534",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-09-01T14:45:46.090Z"
+        }
       },
       {
         "gitHubLogin": "dsawardekar",
@@ -4667,7 +4686,15 @@
         }
       },
       {
-        "gitHubLogin": "glingener"
+        "gitHubLogin": "glingener",
+        "consent": true,
+        "comment": {
+          "date": "2021-09-01T09:20:26Z",
+          "id": 910099791,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-910099791",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-09-01T14:45:46.295Z"
+        }
       },
       {
         "gitHubLogin": "gonzomir",
