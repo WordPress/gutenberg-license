@@ -3891,10 +3891,14 @@
         }
       },
       {
-        "gitHubLogin": "dependabot"
+        "gitHubLogin": "dependabot",
+        "consentNeeded": false,
+        "notes": "Consent not needed because this is a bot."
       },
       {
-        "gitHubLogin": "dependabot[bot]"
+        "gitHubLogin": "dependabot[bot]",
+        "consentNeeded": false,
+        "notes": "Consent not needed because this is a bot."
       },
       {
         "gitHubLogin": "derweili",
@@ -4774,7 +4778,9 @@
         }
       },
       {
-        "gitHubLogin": "greenkeeper[bot]"
+        "gitHubLogin": "greenkeeper[bot]",
+        "consentNeeded": false,
+        "notes": "Consent not needed because this is a bot."
       },
       {
         "gitHubLogin": "gregrickaby",
@@ -4846,7 +4852,9 @@
         }
       },
       {
-        "gitHubLogin": "gutenbergplugin"
+        "gitHubLogin": "gutenbergplugin",
+        "consentNeeded": false,
+        "notes": "Consent not needed because this is a bot."
       },
       {
         "gitHubLogin": "gwwar",
