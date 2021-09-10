@@ -1240,7 +1240,10 @@
       901593283,
       902259282,
       910089534,
-      910099791
+      910099791,
+      911566705,
+      911641252,
+      914450641
     ],
     "responses": [
       {
@@ -3115,7 +3118,15 @@
         }
       },
       {
-        "gitHubLogin": "belcherj"
+        "gitHubLogin": "belcherj",
+        "consent": true,
+        "comment": {
+          "date": "2021-09-02T12:47:01Z",
+          "id": 911641252,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-911641252",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-09-10T15:14:28.999Z"
+        }
       },
       {
         "gitHubLogin": "benlk",
@@ -8848,7 +8859,15 @@
         }
       },
       {
-        "gitHubLogin": "vindl"
+        "gitHubLogin": "vindl",
+        "consent": true,
+        "comment": {
+          "date": "2021-09-02T11:31:32Z",
+          "id": 911566705,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-911566705",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-09-10T15:14:28.793Z"
+        }
       },
       {
         "gitHubLogin": "vipulc2",
