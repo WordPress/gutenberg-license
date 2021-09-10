@@ -9074,7 +9074,12 @@
         }
       },
       {
-        "gitHubLogin": "yarnoj"
+        "gitHubLogin": "yarnoj",
+        "consentNeeded": false,
+        "notes": "There is no longer a yarnoj GitHub account. The only contribution from yarnoj was a PR (showing on the [merged PRs data](https://github.com/WordPress/gutenberg-license/blob/2e2a1524ebb917c4cf303d24494d459fe31f72d1/data/2021-04-16_merged-or-open-prs.json) as #13574), is now shown as being authored by GitHub user rjcdr (presumably because yarnoj changed their username to rjcdr). As a result, there no longer are any contributions from 'yarnoj', and we will seek consent from 'rjcdr' instead."
+      },
+      {
+        "gitHubLogin": "rjcdr"
       },
       {
         "gitHubLogin": "yoavf",
