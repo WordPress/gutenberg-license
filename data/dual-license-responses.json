@@ -1592,7 +1592,9 @@
         }
       },
       {
-        "gitHubLogin": "GutenDev"
+        "gitHubLogin": "GutenDev",
+        "consentNeeded": false,
+        "notes": "Only contribution to the Gutenberg repo was to add their name to the contributors file: https://github.com/WordPress/gutenberg/pull/13160."
       },
       {
         "gitHubLogin": "HardeepAsrani",
@@ -3891,10 +3893,14 @@
         }
       },
       {
-        "gitHubLogin": "dependabot"
+        "gitHubLogin": "dependabot",
+        "consentNeeded": false,
+        "notes": "Consent not needed because this is a bot."
       },
       {
-        "gitHubLogin": "dependabot[bot]"
+        "gitHubLogin": "dependabot[bot]",
+        "consentNeeded": false,
+        "notes": "Consent not needed because this is a bot."
       },
       {
         "gitHubLogin": "derweili",
@@ -4774,7 +4780,9 @@
         }
       },
       {
-        "gitHubLogin": "greenkeeper[bot]"
+        "gitHubLogin": "greenkeeper[bot]",
+        "consentNeeded": false,
+        "notes": "Consent not needed because this is a bot."
       },
       {
         "gitHubLogin": "gregrickaby",
@@ -4846,7 +4854,9 @@
         }
       },
       {
-        "gitHubLogin": "gutenbergplugin"
+        "gitHubLogin": "gutenbergplugin",
+        "consentNeeded": false,
+        "notes": "Consent not needed because this is a bot."
       },
       {
         "gitHubLogin": "gwwar",
@@ -9066,7 +9076,12 @@
         }
       },
       {
-        "gitHubLogin": "yarnoj"
+        "gitHubLogin": "yarnoj",
+        "consentNeeded": false,
+        "notes": "There is no longer a yarnoj GitHub account. The only contribution from yarnoj was a PR (showing on the [merged PRs data](https://github.com/WordPress/gutenberg-license/blob/2e2a1524ebb917c4cf303d24494d459fe31f72d1/data/2021-04-16_merged-or-open-prs.json) as #13574), is now shown as being authored by GitHub user rjcdr (presumably because yarnoj changed their username to rjcdr). As a result, there no longer are any contributions from 'yarnoj', and we will seek consent from 'rjcdr' instead."
+      },
+      {
+        "gitHubLogin": "rjcdr"
       },
       {
         "gitHubLogin": "yoavf",

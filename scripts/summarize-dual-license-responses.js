@@ -16,10 +16,15 @@ const consentResponses = json.gitHubUserContributors.responses.reduce((acc, curr
             node = acc.denying
             break;
         case undefined:
-            node = acc.noResponse
+            // We don't need a response from accounts that we do not need consent from
+            if (current.consentNeeded !== false) {
+              node = acc.noResponse
+            }
             break;
     }
-    node.push(current.gitHubLogin)
+    if (node) {
+        node.push(current.gitHubLogin)
+    }
     return acc
 }, {
     consenting: [],
