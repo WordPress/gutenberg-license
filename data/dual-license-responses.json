@@ -1594,7 +1594,7 @@
       {
         "gitHubLogin": "GutenDev",
         "consentNeeded": false,
-        "notes": "Only contribution to the Gutenberg repo was to add their name to the contributors file: https://github.com/WordPress/gutenberg/pull/13160."
+        "notes": "Only contribution to the Gutenberg repo was to add their name to the contributors file: https://github.com/WordPress/gutenberg/pull/13160, and that file was removed in 15b26c47bdbe50df1c206f931f4fca13a84470de"
       },
       {
         "gitHubLogin": "HardeepAsrani",
