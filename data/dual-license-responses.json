@@ -7846,7 +7846,9 @@
         }
       },
       {
-        "gitHubLogin": "rebeccaj1211"
+        "gitHubLogin": "rebeccaj1211",
+        "consentNeeded": false,
+        "notes": "No commits and only two PRs that were open (#14919, #15066) have since been closed"
       },
       {
         "gitHubLogin": "redstar504"
