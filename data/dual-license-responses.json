@@ -6907,7 +6907,7 @@
       {
         "gitHubLogin": "musus",
         "consentNeeded": false,
-        "notes": "No commits and only PR that was open has since been closed: https://github.com/WordPress/gutenberg/pull/18965"
+        "notes": "No commits and only PR that was open (#18965) has since been closed"
       },
       {
         "gitHubLogin": "myleshyson",
@@ -8080,7 +8080,9 @@
         "gitHubLogin": "saleehk"
       },
       {
-        "gitHubLogin": "salimserdar"
+        "gitHubLogin": "salimserdar",
+        "consentNeeded": false,
+        "notes": "No commits and only PR that was open (#25099) has since been closed"
       },
       {
         "gitHubLogin": "sambgordon"
