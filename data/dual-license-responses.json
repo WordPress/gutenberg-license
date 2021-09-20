@@ -1243,7 +1243,8 @@
       910099791,
       911566705,
       911641252,
-      914450641
+      914450641,
+      921888810
     ],
     "responses": [
       {
@@ -1934,7 +1935,9 @@
         }
       },
       {
-        "gitHubLogin": "MehtaRiddhi"
+        "gitHubLogin": "MehtaRiddhi",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution (#1595) was a typo fix, but typo was subsequently removed (#1667). In addition, the entire sentence has since been removed from Gutenberg."
       },
       {
         "gitHubLogin": "MichaelArestad",
@@ -6904,7 +6907,9 @@
         "gitHubLogin": "murshed"
       },
       {
-        "gitHubLogin": "musus"
+        "gitHubLogin": "musus",
+        "consentNeeded": false,
+        "notes": "No commits and only PR that was open (#18965) has since been closed"
       },
       {
         "gitHubLogin": "myleshyson",
@@ -7841,7 +7846,9 @@
         }
       },
       {
-        "gitHubLogin": "rebeccaj1211"
+        "gitHubLogin": "rebeccaj1211",
+        "consentNeeded": false,
+        "notes": "No commits and only two PRs that were open (#14919, #15066) have since been closed"
       },
       {
         "gitHubLogin": "redstar504"
@@ -8077,7 +8084,9 @@
         "gitHubLogin": "saleehk"
       },
       {
-        "gitHubLogin": "salimserdar"
+        "gitHubLogin": "salimserdar",
+        "consentNeeded": false,
+        "notes": "No commits and only PR that was open (#25099) has since been closed"
       },
       {
         "gitHubLogin": "sambgordon"
@@ -8692,7 +8701,15 @@
         "gitHubLogin": "tiny-james"
       },
       {
-        "gitHubLogin": "tjnicolaides"
+        "gitHubLogin": "tjnicolaides",
+        "consent": true,
+        "comment": {
+          "date": "2021-09-17T15:30:46Z",
+          "id": 921888810,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-921888810",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-09-20T17:51:41.828Z"
+        }
       },
       {
         "gitHubLogin": "tmdesigned",
