@@ -6905,7 +6905,9 @@
         "gitHubLogin": "murshed"
       },
       {
-        "gitHubLogin": "musus"
+        "gitHubLogin": "musus",
+        "consentNeeded": false,
+        "notes": "No commits and only PR that was open has since been closed: https://github.com/WordPress/gutenberg/pull/18965"
       },
       {
         "gitHubLogin": "myleshyson",
