@@ -1935,7 +1935,9 @@
         }
       },
       {
-        "gitHubLogin": "MehtaRiddhi"
+        "gitHubLogin": "MehtaRiddhi",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution (#1595) was a typo fix, but typo was subsequently removed (#1667). In addition, the entire sentence has since been removed from Gutenberg."
       },
       {
         "gitHubLogin": "MichaelArestad",
