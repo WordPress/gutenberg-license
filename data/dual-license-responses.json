@@ -1266,7 +1266,8 @@
       945210857,
       945341095,
       945439869,
-      946107658
+      946107658,
+      943724727
     ],
     "responses": [
       {
@@ -8426,7 +8427,17 @@
         "gitHubLogin": "shaikhaezaz80"
       },
       {
-        "gitHubLogin": "shaileesheth"
+        "gitHubLogin": "shaileesheth",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-14T20:55:12Z",
+          "id": 943724727,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-943724727",
+          "text": "I irrevocably consent that the contributions from @shaileesheth came from me and to dual-licensing them under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "manually added on 2021-10-19",
+          "author": "shailee"
+        },
+        "notes": "On October 14, 2021, @shailee on WP.org Slack responded to me asking about the @sheileesheth GitHub account by stating that she 'had changed my user name and unfortunately don’t have this account active anymore'. I responded by asking her to leave a comment indicating that and stating whether she consented to dual-license those contributions."
       },
       {
         "gitHubLogin": "shamimmoeen"
