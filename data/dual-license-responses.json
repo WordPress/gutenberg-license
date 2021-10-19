@@ -1247,7 +1247,26 @@
       921888810,
       942735989,
       942736015,
-      943097750
+      943097750,
+      944840912,
+      944842034,
+      944849991,
+      944851164,
+      944854525,
+      944873498,
+      944876984,
+      944880817,
+      944902865,
+      944929491,
+      944930552,
+      944958065,
+      945027918,
+      945076139,
+      945201551,
+      945210857,
+      945341095,
+      945439869,
+      946107658
     ],
     "responses": [
       {
@@ -1317,7 +1336,15 @@
         }
       },
       {
-        "gitHubLogin": "AlexChariyska"
+        "gitHubLogin": "AlexChariyska",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T08:32:25Z",
+          "id": 944880817,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944880817",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:56.201Z"
+        }
       },
       {
         "gitHubLogin": "Aljullu",
@@ -1499,7 +1526,15 @@
         }
       },
       {
-        "gitHubLogin": "DOUARA"
+        "gitHubLogin": "DOUARA",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T02:24:20Z",
+          "id": 944840912,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944840912",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:54.773Z"
+        }
       },
       {
         "gitHubLogin": "DaisyOlsen",
@@ -1789,7 +1824,15 @@
         }
       },
       {
-        "gitHubLogin": "Kluny"
+        "gitHubLogin": "Kluny",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-17T00:39:44Z",
+          "id": 945027918,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-945027918",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:57.235Z"
+        }
       },
       {
         "gitHubLogin": "LeonBlade",
@@ -2991,7 +3034,15 @@
         }
       },
       {
-        "gitHubLogin": "asvinb"
+        "gitHubLogin": "asvinb",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-18T07:24:11Z",
+          "id": 945439869,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-945439869",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:10:09.499Z"
+        }
       },
       {
         "gitHubLogin": "atachibana",
@@ -3367,7 +3418,15 @@
         "gitHubLogin": "caxco93"
       },
       {
-        "gitHubLogin": "cburton4"
+        "gitHubLogin": "cburton4",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T15:09:13Z",
+          "id": 944929491,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944929491",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:56.611Z"
+        }
       },
       {
         "gitHubLogin": "ceyhun",
@@ -4356,7 +4415,15 @@
         }
       },
       {
-        "gitHubLogin": "ephox-mogran"
+        "gitHubLogin": "ephox-mogran",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-17T21:56:51Z",
+          "id": 945201551,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-945201551",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:57.642Z"
+        }
       },
       {
         "gitHubLogin": "epiqueras",
@@ -4943,7 +5010,15 @@
         "gitHubLogin": "henryholtgeerts"
       },
       {
-        "gitHubLogin": "herewithme"
+        "gitHubLogin": "herewithme",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-18T04:00:36Z",
+          "id": 945341095,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-945341095",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:10:09.293Z"
+        }
       },
       {
         "gitHubLogin": "herregroen"
@@ -5161,7 +5236,15 @@
         }
       },
       {
-        "gitHubLogin": "israelshmueli"
+        "gitHubLogin": "israelshmueli",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T11:43:25Z",
+          "id": 944902865,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944902865",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:56.405Z"
+        }
       },
       {
         "gitHubLogin": "itsjusteileen"
@@ -5376,7 +5459,15 @@
         }
       },
       {
-        "gitHubLogin": "jeff-be"
+        "gitHubLogin": "jeff-be",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-18T19:46:20Z",
+          "id": 946107658,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-946107658",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:10:09.705Z"
+        }
       },
       {
         "gitHubLogin": "jeffersonrabb",
@@ -5679,7 +5770,15 @@
         }
       },
       {
-        "gitHubLogin": "jomurgel"
+        "gitHubLogin": "jomurgel",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T02:34:31Z",
+          "id": 944842034,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944842034",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:54.979Z"
+        }
       },
       {
         "gitHubLogin": "jonathanbardo",
@@ -6240,7 +6339,15 @@
         }
       },
       {
-        "gitHubLogin": "maheshwaghmare"
+        "gitHubLogin": "maheshwaghmare",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T07:30:41Z",
+          "id": 944873498,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944873498",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:55.796Z"
+        }
       },
       {
         "gitHubLogin": "malinajirka",
@@ -7102,16 +7209,40 @@
         }
       },
       {
-        "gitHubLogin": "nitrajka"
+        "gitHubLogin": "nitrajka",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-17T08:57:54Z",
+          "id": 945076139,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-945076139",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:57.438Z"
+        }
       },
       {
         "gitHubLogin": "njbrown"
       },
       {
-        "gitHubLogin": "njpanderson"
+        "gitHubLogin": "njpanderson",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T07:59:37Z",
+          "id": 944876984,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944876984",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:55.999Z"
+        }
       },
       {
-        "gitHubLogin": "noahshrader"
+        "gitHubLogin": "noahshrader",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T03:50:33Z",
+          "id": 944849991,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944849991",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:55.186Z"
+        }
       },
       {
         "gitHubLogin": "noahtallen",
@@ -7257,7 +7388,15 @@
         }
       },
       {
-        "gitHubLogin": "octalmage"
+        "gitHubLogin": "octalmage",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T15:13:51Z",
+          "id": 944930552,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944930552",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:56.817Z"
+        }
       },
       {
         "gitHubLogin": "oddevan",
@@ -7942,7 +8081,15 @@
         }
       },
       {
-        "gitHubLogin": "rileybrook"
+        "gitHubLogin": "rileybrook",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T17:14:11Z",
+          "id": 944958065,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944958065",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:57.030Z"
+        }
       },
       {
         "gitHubLogin": "riobahtiar",
@@ -7973,7 +8120,15 @@
         "gitHubLogin": "robertdevore"
       },
       {
-        "gitHubLogin": "robertsky"
+        "gitHubLogin": "robertsky",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T04:02:11Z",
+          "id": 944851164,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944851164",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:55.389Z"
+        }
       },
       {
         "gitHubLogin": "roborourke",
@@ -8100,7 +8255,15 @@
         }
       },
       {
-        "gitHubLogin": "saleehk"
+        "gitHubLogin": "saleehk",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-16T04:34:24Z",
+          "id": 944854525,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-944854525",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-10-19T21:09:55.590Z"
+        }
       },
       {
         "gitHubLogin": "salimserdar",
@@ -8717,7 +8880,15 @@
         "gitHubLogin": "timwright12"
       },
       {
-        "gitHubLogin": "tiny-james"
+        "gitHubLogin": "tiny-james",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-17T23:04:18Z",
+          "id": 945210857,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-945210857",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.\nI note that my work on Gutenberg was done contractually for Automattic (via the company Ephox) so they already had all rights to relicense any commits I made.",
+          "preservedToJsonOn": "2021-10-19T21:10:09.089Z"
+        }
       },
       {
         "gitHubLogin": "tjnicolaides",
