@@ -41,7 +41,11 @@
       903741397,
       910329999,
       947983083,
-      948000002
+      948000002,
+      954018791,
+      954034475,
+      966646470,
+      966648900
     ],
     "responses": [
       {
@@ -483,7 +487,15 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "vadim.nicolai@moduscreate.com"
+        "unassociatedCommitterEmail": "vadim.nicolai@moduscreate.com",
+        "comment": {
+          "gitHubLogin": "nicolad",
+          "date": "2021-11-11T21:46:41Z",
+          "id": 966648900,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-966648900",
+          "text": "I am the author of all Gutenberg commits from nicolai.vadim@gmail.com\n\nThanks for responding @nicolad ! 🙇\nThe commits listed in the issue description are actually from a different email address: vadim.nicolai@moduscreate.com. Can you let me know if you are the author of those commits?\n\nI am the author of all Gutenberg commits from vadim.nicolai@moduscreate.com",
+          "preservedToJsonOn": "2021-12-02T17:42:20.484Z"
+        }
       },
       {
         "unassociatedCommitterEmail": "vagabond@guest.guest",
@@ -1282,7 +1294,9 @@
       947838774,
       948736870,
       950536628,
-      953207678
+      953207678,
+      955768732,
+      964152870
     ],
     "responses": [
       {
@@ -5852,7 +5866,15 @@
         }
       },
       {
-        "gitHubLogin": "jpbelo"
+        "gitHubLogin": "jpbelo",
+        "consent": true,
+        "comment": {
+          "date": "2021-10-31T18:19:01Z",
+          "id": 955768732,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-955768732",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-12-02T17:42:34.082Z"
+        }
       },
       {
         "gitHubLogin": "jpjjulie"
@@ -8107,7 +8129,15 @@
         }
       },
       {
-        "gitHubLogin": "richrd"
+        "gitHubLogin": "richrd",
+        "consent": true,
+        "comment": {
+          "date": "2021-11-09T13:29:25Z",
+          "id": 964152870,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-964152870",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2021-12-02T17:42:34.289Z"
+        }
       },
       {
         "gitHubLogin": "richtabor",
