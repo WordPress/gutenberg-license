@@ -17,7 +17,9 @@ const consentResponses = json.gitHubUserContributors.responses.reduce((acc, curr
             break;
         case undefined:
             // We don't need a response from accounts that we do not need consent from
-            if (current.consentNeeded !== false) {
+            if (current.consentNeeded === false) {
+                node = acc.consentNotNeeded
+            } else {
               node = acc.noResponse
             }
             break;
@@ -29,12 +31,15 @@ const consentResponses = json.gitHubUserContributors.responses.reduce((acc, curr
 }, {
     consenting: [],
     denying: [],
-    noResponse: []
+    noResponse: [],
+    consentNotNeeded: []
 })
 
 const spaced = (obj) => `${obj}`.replace(/,/g, ', ')
 
 console.log('\n\x1b[30m\x1b[42m'+ 'Consenting users:' + '\x1b[0m\n' + spaced(consentResponses.consenting))
+console.log('\n*********\n')
+console.log('\n\x1b[30m\x1b[42m' + 'Usernames we do not need consent from:' + '\x1b[0m\n' + spaced(consentResponses.consentNotNeeded))
 console.log('\n*********\n')
 console.log('\x1b[30m\x1b[41m' + 'NON consenting users:' + '\x1b[0m\n' + spaced(consentResponses.denying))
 console.log('\n*********\n')
@@ -83,6 +88,9 @@ from the [\`dual-license-responses.json\`](${jsonFilePath}) file.
 
 ### Users Who Have Consented
 ${spaced(consentResponses.consenting)}
+
+### Usernames We Do Not Need Consent From (check "notes" in [\`dual-license-responses.json\`](${jsonFilePath}))
+${spaced(consentResponses.consentNotNeeded)}
 
 ### Users Who Have Denied Consent
 ${spaced(consentResponses.denying)}
