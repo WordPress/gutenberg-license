@@ -69,9 +69,8 @@ console.table({
     'no response': {number: consentResponses.noResponse.length}
 })
 
-const notClaimed = json.claimedEmails.responses.filter(r => r.comment === undefined).length
-const total = json.claimedEmails.responses.length
-const claimed = total - notClaimed
+const notClaimed = json.claimedEmails.responses.filter(r => r.comment === undefined && r.consentNeeded !== false).length
+const claimed = json.claimedEmails.responses.filter(r => r.comment !== undefined).length
 
 console.log('\nUnassociated emails')
 console.table({
