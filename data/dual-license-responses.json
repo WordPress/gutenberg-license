@@ -2899,7 +2899,9 @@
         }
       },
       {
-        "gitHubLogin": "andreyc0d3r"
+        "gitHubLogin": "andreyc0d3r",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/15386)"
       },
       {
         "gitHubLogin": "androb",
