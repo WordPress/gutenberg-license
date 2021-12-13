@@ -3412,7 +3412,9 @@
         }
       },
       {
-        "gitHubLogin": "brijeshb42"
+        "gitHubLogin": "brijeshb42",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/26310)"
       },
       {
         "gitHubLogin": "burhandodhy",
