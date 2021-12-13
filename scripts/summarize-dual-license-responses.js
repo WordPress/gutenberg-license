@@ -19,6 +19,12 @@ const consentResponses = json.gitHubUserContributors.responses.reduce((acc, curr
             // We don't need a response from accounts that we do not need consent from
             if (current.consentNeeded === false) {
                 node = acc.consentNotNeeded
+                if (current.notes === undefined) {
+                    const message = 'All entries where consent is not needed should have a \'notes\' property providing an explanation,'
+                        + ` but ${current.gitHubLogin} has no \'notes\'. Aborting...`
+                    console.log('\x1b[30m\x1b[41m' + message + '\x1b[0m\n');
+                    process.exit();
+                }
             } else {
               node = acc.noResponse
             }
