@@ -3267,7 +3267,9 @@
         }
       },
       {
-        "gitHubLogin": "bigbassroller"
+        "gitHubLogin": "bigbassroller",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to fix a typo in the documentation (https://github.com/WordPress/gutenberg/pull/14736)"
       },
       {
         "gitHubLogin": "billcolumbia"
