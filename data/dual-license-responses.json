@@ -431,7 +431,9 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "pratikthink@gmail.com"
+        "unassociatedCommitterEmail": "pratikthink@gmail.com",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/commit/60e0b50a33f81cf0be90c8953862f39d7bdbbf3a)"
       },
       {
         "unassociatedCommitterEmail": "pstonier@salient.com"

@@ -8,7 +8,7 @@ from the [`dual-license-responses.json`](data/dual-license-responses.json) file.
 | Unassociated Email... | Number |
 | --- | --- |
 | Has Been Claimed By a GitHub User | 41 |
-| Remains Unclaimed | 11 |
+| Remains Unclaimed | 10 |
 
 ## Consent to Dual-License
 
