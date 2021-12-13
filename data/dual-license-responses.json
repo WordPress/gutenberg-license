@@ -3455,7 +3455,9 @@
         }
       },
       {
-        "gitHubLogin": "carloslfu"
+        "gitHubLogin": "carloslfu",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/22254)"
       },
       {
         "gitHubLogin": "carolinan",
