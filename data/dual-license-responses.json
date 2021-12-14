@@ -8539,7 +8539,9 @@
         }
       },
       {
-        "gitHubLogin": "shaikhaezaz80"
+        "gitHubLogin": "shaikhaezaz80",
+        "consentNeeded": false,
+        "notes":"Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/19595)"
       },
       {
         "gitHubLogin": "shaileesheth",
