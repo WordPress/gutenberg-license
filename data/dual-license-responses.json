@@ -5030,7 +5030,9 @@
         "gitHubLogin": "hansjovis"
       },
       {
-        "gitHubLogin": "harleyoliver"
+        "gitHubLogin": "harleyoliver",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was code that was originally MIT licensed and got copied into Gutenberg (https://github.com/WordPress/gutenberg/pull/22777)"
       },
       {
         "gitHubLogin": "haszari",
