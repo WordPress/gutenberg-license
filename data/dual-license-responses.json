@@ -8557,7 +8557,9 @@
         "notes": "On October 14, 2021, @shailee on WP.org Slack responded to me asking about the @sheileesheth GitHub account by stating that she 'had changed my user name and unfortunately don’t have this account active anymore'. I responded by asking her to leave a comment indicating that and stating whether she consented to dual-license those contributions."
       },
       {
-        "gitHubLogin": "shamimmoeen"
+        "gitHubLogin": "shamimmoeen",
+        "consentNeeded": false,
+        "notes":"Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/25359)"
       },
       {
         "gitHubLogin": "sharazghouri"
