@@ -8385,7 +8385,9 @@
         "notes": "No commits and only PR that was open (#25099) has since been closed"
       },
       {
-        "gitHubLogin": "sambgordon"
+        "gitHubLogin": "sambgordon",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/14778)"
       },
       {
         "gitHubLogin": "samikeijonen",
