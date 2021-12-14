@@ -8121,7 +8121,9 @@
         "notes": "No commits and only two PRs that were open (#14919, #15066) have since been closed"
       },
       {
-        "gitHubLogin": "redstar504"
+        "gitHubLogin": "redstar504",
+        "consentNeeded": false,
+        "notes": "Consent not needed because all contributions were to documentation (PRs: #25124, #25125)"
       },
       {
         "gitHubLogin": "renatho",
