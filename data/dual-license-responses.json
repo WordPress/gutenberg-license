@@ -8225,7 +8225,9 @@
         }
       },
       {
-        "gitHubLogin": "rmccue"
+        "gitHubLogin": "rmccue",
+        "consentNeeded": false,
+        "notes": "Consent not needed because contributions were either to documentation (PR #16531) or have been removed from Gutenberg (commit fdb1391956f8c039ab1cb74ffccec8370ee2d4c)"
       },
       {
         "gitHubLogin": "rmorse",
