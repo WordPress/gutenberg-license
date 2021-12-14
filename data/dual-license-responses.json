@@ -4099,7 +4099,9 @@
         }
       },
       {
-        "gitHubLogin": "dhurlburtusa"
+        "gitHubLogin": "dhurlburtusa",
+        "consentNeeded": false,
+        "notes":"Consent not needed because all contributions were to documentation (PRs: #18423, #18450)"
       },
       {
         "gitHubLogin": "diedexx",
