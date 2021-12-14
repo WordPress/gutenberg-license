@@ -8572,7 +8572,9 @@
         "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/25359)"
       },
       {
-        "gitHubLogin": "sharazghouri"
+        "gitHubLogin": "sharazghouri",
+        "consentNeeded": false,
+        "notes":"Consent not needed because all contributions were to documentation (PRs: #6093, #10020)"
       },
       {
         "gitHubLogin": "shaunandrews",
