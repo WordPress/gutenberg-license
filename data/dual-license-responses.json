@@ -1935,7 +1935,9 @@
         }
       },
       {
-        "gitHubLogin": "MaedahBatool"
+        "gitHubLogin": "MaedahBatool",
+        "consentNeeded": false,
+        "notes":"Consent not needed because all contributions were to documentation (PRs: #11656, #11657, #11675)"
       },
       {
         "gitHubLogin": "MaggieCabrera",
