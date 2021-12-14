@@ -9460,7 +9460,9 @@
         }
       },
       {
-        "gitHubLogin": "yodiyo"
+        "gitHubLogin": "yodiyo",
+        "consentNeeded": false,
+        "notes":"Consent not needed because all contributions were to documentation (PRs: #14839, #14841)"
       },
       {
         "gitHubLogin": "youknowriad",
