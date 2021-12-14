@@ -7629,7 +7629,9 @@
         }
       },
       {
-        "gitHubLogin": "parmarhardip"
+        "gitHubLogin": "parmarhardip",
+        "consentNeeded": false,
+        "notes":"Consent not needed because all contributions were to documentation (PRs: #15494, #15942)"
       },
       {
         "gitHubLogin": "patricklindsay",
