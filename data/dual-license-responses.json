@@ -7973,7 +7973,9 @@
         }
       },
       {
-        "gitHubLogin": "raajtram"
+        "gitHubLogin": "raajtram",
+        "consentNeeded": false,
+        "notes": "Consent not needed because all contributions were to documentation (PRs: #17292, #17377)"
       },
       {
         "gitHubLogin": "rachelbaker",
