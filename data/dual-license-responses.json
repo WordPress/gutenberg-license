@@ -1708,7 +1708,9 @@
         }
       },
       {
-        "gitHubLogin": "IslamYehia1"
+        "gitHubLogin": "IslamYehia1",
+        "consentNeeded": false,
+        "notes": "Only had 1 PR (#28415), and that PR was closed without being merged."
       },
       {
         "gitHubLogin": "ItsJonQ",
