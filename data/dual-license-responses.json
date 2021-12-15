@@ -1646,7 +1646,9 @@
         }
       },
       {
-        "gitHubLogin": "EphoxJames"
+        "gitHubLogin": "EphoxJames",
+        "consentNeeded": false,
+        "notes": "This account only opened PRs and had no commits. All commits on the PRs were by other users (aduth, androb, jsmussen, mcsf, nylen, and tiny-james) who have consented to relicense their contributions already (PRs: 598, 717, 850, 880, 1030, 1031, 1153, 1163, 1755, 1826, 2095, 2143, 2482, 2484, 2492, 2516, 2532, 2599, 2896, 2947, 3106, 3193, 3225, 3342, 3343, 3398, 3450, 3487, 3526, 3582, 3796, 3812, 4349"
       },
       {
         "gitHubLogin": "Fellner",
