@@ -468,7 +468,9 @@
         "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/commit/a01b2ddcc0365fd7d518ba8d9ed7d90798129b0e)"
       },
       {
-        "unassociatedCommitterEmail": "side-by-side@users.noreply.github.com"
+        "unassociatedCommitterEmail": "side-by-side@users.noreply.github.com",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/commit/b8f2849e35e150e469d67c8b972d4559280b08e5)"
       },
       {
         "unassociatedCommitterEmail": "staci@Stacis-MacBook-Pro.local",
