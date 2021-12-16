@@ -463,7 +463,9 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "riddhi.multidots@gmail.com"
+        "unassociatedCommitterEmail": "riddhi.multidots@gmail.com",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/commit/a01b2ddcc0365fd7d518ba8d9ed7d90798129b0e)"
       },
       {
         "unassociatedCommitterEmail": "side-by-side@users.noreply.github.com"
