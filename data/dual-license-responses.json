@@ -388,7 +388,9 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "msaeed.ma@gmail.com"
+        "unassociatedCommitterEmail": "msaeed.ma@gmail.com",
+        "consentNeeded": false,
+        "notes": "Single character typo fix (https://github.com/WordPress/gutenberg/commit/a234c348637afbb1f866b23da5a24dcdda6effa5). Also, uxcodeone, the author of the PR and almost certainly the same person, has consented."
       },
       {
         "unassociatedCommitterEmail": "ned@bight.ca",
