@@ -361,7 +361,9 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "matt@nyeus.com"
+        "unassociatedCommitterEmail": "matt@nyeus.com",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/commit/3ccc77f9f1c43542c5a046cc96f1fea76279f722)"
       },
       {
         "unassociatedCommitterEmail": "michael@eventespresso.com",
