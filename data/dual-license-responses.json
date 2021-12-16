@@ -1653,7 +1653,7 @@
       {
         "gitHubLogin": "Fellner",
         "consentNeeded": false,
-        "notes": "Contribution was a two-line change bringing a documentation code snippet up-to-date with the underlying codebase (https://github.com/WordPress/gutenberg/pull/7484)"
+        "notes": "Contribution was a two-line import change bringing a documentation code snippet up-to-date with the underlying codebase (https://github.com/WordPress/gutenberg/pull/7484)"
       },
       {
         "gitHubLogin": "GaryJones",
