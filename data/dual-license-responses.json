@@ -2051,7 +2051,9 @@
         }
       },
       {
-        "gitHubLogin": "MotionMaker"
+        "gitHubLogin": "MotionMaker",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was a PR that has since been closed (https://github.com/WordPress/gutenberg/pull/14875)"
       },
       {
         "gitHubLogin": "Naerriel",
