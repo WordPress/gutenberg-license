@@ -312,7 +312,9 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "jonathan.wold@xwp.co"
+        "unassociatedCommitterEmail": "jonathan.wold@xwp.co",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/commit/5470153aaf5c0c2a2ce12a0b50ecd68aa44300cd)"
       },
       {
         "unassociatedCommitterEmail": "jw@werbeagenten.de",
