@@ -7138,7 +7138,9 @@
         }
       },
       {
-        "gitHubLogin": "murshed"
+        "gitHubLogin": "murshed",
+        "consentNeeded": false,
+        "notes": "Only contribution was a PR that only contained documentation fixes (#20412). Although that PR was closed, it did inspire a follow-up PR (#35268) so it matters that this was only documentation fixes."
       },
       {
         "gitHubLogin": "musus",
