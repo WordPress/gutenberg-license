@@ -312,7 +312,9 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "jonathan.wold@xwp.co"
+        "unassociatedCommitterEmail": "jonathan.wold@xwp.co",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/commit/5470153aaf5c0c2a2ce12a0b50ecd68aa44300cd)"
       },
       {
         "unassociatedCommitterEmail": "jw@werbeagenten.de",
@@ -359,7 +361,9 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "matt@nyeus.com"
+        "unassociatedCommitterEmail": "matt@nyeus.com",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/commit/3ccc77f9f1c43542c5a046cc96f1fea76279f722)"
       },
       {
         "unassociatedCommitterEmail": "michael@eventespresso.com",
@@ -384,7 +388,9 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "msaeed.ma@gmail.com"
+        "unassociatedCommitterEmail": "msaeed.ma@gmail.com",
+        "consentNeeded": false,
+        "notes": "Single character typo fix (https://github.com/WordPress/gutenberg/commit/a234c348637afbb1f866b23da5a24dcdda6effa5). Also, uxcodeone, the author of the PR and almost certainly the same person, has consented."
       },
       {
         "unassociatedCommitterEmail": "ned@bight.ca",
@@ -431,7 +437,9 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "pratikthink@gmail.com"
+        "unassociatedCommitterEmail": "pratikthink@gmail.com",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/commit/60e0b50a33f81cf0be90c8953862f39d7bdbbf3a)"
       },
       {
         "unassociatedCommitterEmail": "pstonier@salient.com"
@@ -459,10 +467,14 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "riddhi.multidots@gmail.com"
+        "unassociatedCommitterEmail": "riddhi.multidots@gmail.com",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/commit/a01b2ddcc0365fd7d518ba8d9ed7d90798129b0e)"
       },
       {
-        "unassociatedCommitterEmail": "side-by-side@users.noreply.github.com"
+        "unassociatedCommitterEmail": "side-by-side@users.noreply.github.com",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/commit/b8f2849e35e150e469d67c8b972d4559280b08e5)"
       },
       {
         "unassociatedCommitterEmail": "staci@Stacis-MacBook-Pro.local",
@@ -1644,10 +1656,14 @@
         }
       },
       {
-        "gitHubLogin": "EphoxJames"
+        "gitHubLogin": "EphoxJames",
+        "consentNeeded": false,
+        "notes": "This account only opened PRs and had no commits. All commits on the PRs were by other users (aduth, androb, jsmussen, mcsf, nylen, and tiny-james) who have consented to relicense their contributions already (PRs: 598, 717, 850, 880, 1030, 1031, 1153, 1163, 1755, 1826, 2095, 2143, 2482, 2484, 2492, 2516, 2532, 2599, 2896, 2947, 3106, 3193, 3225, 3342, 3343, 3398, 3450, 3487, 3526, 3582, 3796, 3812, 4349"
       },
       {
-        "gitHubLogin": "Fellner"
+        "gitHubLogin": "Fellner",
+        "consentNeeded": false,
+        "notes": "Contribution was a two-line import change bringing a documentation code snippet up-to-date with the underlying codebase (https://github.com/WordPress/gutenberg/pull/7484)"
       },
       {
         "gitHubLogin": "GaryJones",
@@ -1702,7 +1718,9 @@
         }
       },
       {
-        "gitHubLogin": "IslamYehia1"
+        "gitHubLogin": "IslamYehia1",
+        "consentNeeded": false,
+        "notes": "Only had 1 PR (#28415), and that PR was closed without being merged."
       },
       {
         "gitHubLogin": "ItsJonQ",
@@ -1931,7 +1949,9 @@
         }
       },
       {
-        "gitHubLogin": "MaedahBatool"
+        "gitHubLogin": "MaedahBatool",
+        "consentNeeded": false,
+        "notes":"Consent not needed because all contributions were to documentation (PRs: #11656, #11657, #11675)"
       },
       {
         "gitHubLogin": "MaggieCabrera",
@@ -2041,7 +2061,9 @@
         }
       },
       {
-        "gitHubLogin": "MotionMaker"
+        "gitHubLogin": "MotionMaker",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was a PR that has since been closed (https://github.com/WordPress/gutenberg/pull/14875)"
       },
       {
         "gitHubLogin": "Naerriel",
@@ -2168,7 +2190,9 @@
         }
       },
       {
-        "gitHubLogin": "RickorDD"
+        "gitHubLogin": "RickorDD",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/16235)"
       },
       {
         "gitHubLogin": "Ringish",
@@ -2744,10 +2768,14 @@
         }
       },
       {
-        "gitHubLogin": "alexislloyd"
+        "gitHubLogin": "alexislloyd",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/12985)"
       },
       {
-        "gitHubLogin": "alexraby"
+        "gitHubLogin": "alexraby",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/12469)"
       },
       {
         "gitHubLogin": "alexsanford",
@@ -2893,7 +2921,9 @@
         }
       },
       {
-        "gitHubLogin": "andreyc0d3r"
+        "gitHubLogin": "andreyc0d3r",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/15386)"
       },
       {
         "gitHubLogin": "androb",
@@ -3259,10 +3289,14 @@
         }
       },
       {
-        "gitHubLogin": "bigbassroller"
+        "gitHubLogin": "bigbassroller",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to fix a typo in the documentation (https://github.com/WordPress/gutenberg/pull/14736)"
       },
       {
-        "gitHubLogin": "billcolumbia"
+        "gitHubLogin": "billcolumbia",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to fix a typo in the documentation (https://github.com/WordPress/gutenberg/pull/9689)"
       },
       {
         "gitHubLogin": "bjtitus",
@@ -3400,7 +3434,9 @@
         }
       },
       {
-        "gitHubLogin": "brijeshb42"
+        "gitHubLogin": "brijeshb42",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/26310)"
       },
       {
         "gitHubLogin": "burhandodhy",
@@ -3414,7 +3450,9 @@
         }
       },
       {
-        "gitHubLogin": "cagdasdag"
+        "gitHubLogin": "cagdasdag",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/12660)"
       },
       {
         "gitHubLogin": "cameronvoell",
@@ -3439,7 +3477,9 @@
         }
       },
       {
-        "gitHubLogin": "carloslfu"
+        "gitHubLogin": "carloslfu",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/22254)"
       },
       {
         "gitHubLogin": "carolinan",
@@ -3756,7 +3796,9 @@
         }
       },
       {
-        "gitHubLogin": "csabotta"
+        "gitHubLogin": "csabotta",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/4907)"
       },
       {
         "gitHubLogin": "curtisbelt",
@@ -4075,7 +4117,9 @@
         }
       },
       {
-        "gitHubLogin": "dhurlburtusa"
+        "gitHubLogin": "dhurlburtusa",
+        "consentNeeded": false,
+        "notes": "Consent not needed because all contributions were to documentation (PRs: #18423, #18450)"
       },
       {
         "gitHubLogin": "diedexx",
@@ -4348,10 +4392,14 @@
         }
       },
       {
-        "gitHubLogin": "edschminke"
+        "gitHubLogin": "edschminke",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/20659)"
       },
       {
-        "gitHubLogin": "eflynn"
+        "gitHubLogin": "eflynn",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/1815)"
       },
       {
         "gitHubLogin": "ehg",
@@ -5006,7 +5054,9 @@
         "gitHubLogin": "hansjovis"
       },
       {
-        "gitHubLogin": "harleyoliver"
+        "gitHubLogin": "harleyoliver",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was code that was originally MIT licensed and got copied into Gutenberg (https://github.com/WordPress/gutenberg/pull/22777)"
       },
       {
         "gitHubLogin": "haszari",
@@ -5020,7 +5070,9 @@
         }
       },
       {
-        "gitHubLogin": "hbrok"
+        "gitHubLogin": "hbrok",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was code that was originally MIT licensed and got copied into Gutenberg (https://github.com/WordPress/gutenberg/pull/22777)"
       },
       {
         "gitHubLogin": "helen",
@@ -5045,7 +5097,9 @@
         }
       },
       {
-        "gitHubLogin": "henryholtgeerts"
+        "gitHubLogin": "henryholtgeerts",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/18277)"
       },
       {
         "gitHubLogin": "herewithme",
@@ -5285,7 +5339,9 @@
         }
       },
       {
-        "gitHubLogin": "itsjusteileen"
+        "gitHubLogin": "itsjusteileen",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/23310)"
       },
       {
         "gitHubLogin": "ixkaito",
@@ -5706,7 +5762,9 @@
         }
       },
       {
-        "gitHubLogin": "joehills"
+        "gitHubLogin": "joehills",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/3788)"
       },
       {
         "gitHubLogin": "joelclimbsthings",
@@ -5852,7 +5910,9 @@
         }
       },
       {
-        "gitHubLogin": "josephchesterton"
+        "gitHubLogin": "josephchesterton",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/12661)"
       },
       {
         "gitHubLogin": "joshuatf",
@@ -6354,7 +6414,9 @@
         "gitHubLogin": "lukekowalski"
       },
       {
-        "gitHubLogin": "lukestramasonder"
+        "gitHubLogin": "lukestramasonder",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/23322)"
       },
       {
         "gitHubLogin": "lukewalczak",
@@ -6960,7 +7022,9 @@
         }
       },
       {
-        "gitHubLogin": "morena"
+        "gitHubLogin": "morena",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/27440)"
       },
       {
         "gitHubLogin": "morganestes",
@@ -7084,7 +7148,9 @@
         }
       },
       {
-        "gitHubLogin": "murshed"
+        "gitHubLogin": "murshed",
+        "consentNeeded": false,
+        "notes": "Only contribution was a PR that only contained documentation fixes (#20412). Although that PR was closed, it did inspire a follow-up PR (#35268) so it matters that this was only documentation fixes."
       },
       {
         "gitHubLogin": "musus",
@@ -7585,7 +7651,9 @@
         }
       },
       {
-        "gitHubLogin": "parmarhardip"
+        "gitHubLogin": "parmarhardip",
+        "consentNeeded": false,
+        "notes": "Consent not needed because all contributions were to documentation (PRs: #15494, #15942)"
       },
       {
         "gitHubLogin": "patricklindsay",
@@ -7839,7 +7907,9 @@
         }
       },
       {
-        "gitHubLogin": "pratikkry"
+        "gitHubLogin": "pratikkry",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/13148)"
       },
       {
         "gitHubLogin": "preda-bogdan",
@@ -7925,7 +7995,9 @@
         }
       },
       {
-        "gitHubLogin": "raajtram"
+        "gitHubLogin": "raajtram",
+        "consentNeeded": false,
+        "notes": "Consent not needed because all contributions were to documentation (PRs: #17292, #17377)"
       },
       {
         "gitHubLogin": "rachelbaker",
@@ -8071,7 +8143,9 @@
         "notes": "No commits and only two PRs that were open (#14919, #15066) have since been closed"
       },
       {
-        "gitHubLogin": "redstar504"
+        "gitHubLogin": "redstar504",
+        "consentNeeded": false,
+        "notes": "Consent not needed because all contributions were to documentation (PRs: #25124, #25125)"
       },
       {
         "gitHubLogin": "renatho",
@@ -8173,7 +8247,9 @@
         }
       },
       {
-        "gitHubLogin": "rmccue"
+        "gitHubLogin": "rmccue",
+        "consentNeeded": false,
+        "notes": "Consent not needed because contributions were either to documentation (PR #16531) or have been removed from Gutenberg (commit fdb1391956f8c039ab1cb74ffccec8370ee2d4c)"
       },
       {
         "gitHubLogin": "rmorse",
@@ -8341,7 +8417,9 @@
         "notes": "No commits and only PR that was open (#25099) has since been closed"
       },
       {
-        "gitHubLogin": "sambgordon"
+        "gitHubLogin": "sambgordon",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/14778)"
       },
       {
         "gitHubLogin": "samikeijonen",
@@ -8493,7 +8571,9 @@
         }
       },
       {
-        "gitHubLogin": "shaikhaezaz80"
+        "gitHubLogin": "shaikhaezaz80",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/19595)"
       },
       {
         "gitHubLogin": "shaileesheth",
@@ -8509,10 +8589,14 @@
         "notes": "On October 14, 2021, @shailee on WP.org Slack responded to me asking about the @sheileesheth GitHub account by stating that she 'had changed my user name and unfortunately don’t have this account active anymore'. I responded by asking her to leave a comment indicating that and stating whether she consented to dual-license those contributions."
       },
       {
-        "gitHubLogin": "shamimmoeen"
+        "gitHubLogin": "shamimmoeen",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/25359)"
       },
       {
-        "gitHubLogin": "sharazghouri"
+        "gitHubLogin": "sharazghouri",
+        "consentNeeded": false,
+        "notes":"Consent not needed because all contributions were to documentation (PRs: #6093, #10020)"
       },
       {
         "gitHubLogin": "shaunandrews",
@@ -8559,7 +8643,9 @@
         }
       },
       {
-        "gitHubLogin": "shramee"
+        "gitHubLogin": "shramee",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/24325)"
       },
       {
         "gitHubLogin": "siddhantdante"
@@ -8885,7 +8971,9 @@
         }
       },
       {
-        "gitHubLogin": "thiagolcks"
+        "gitHubLogin": "thiagolcks",
+        "consentNeeded": false,
+        "notes":"Consent not needed because all contributions were to documentation (PRs: #14321, #14355)"
       },
       {
         "gitHubLogin": "thisissandip",
@@ -9012,7 +9100,9 @@
         }
       },
       {
-        "gitHubLogin": "tnorthcutt"
+        "gitHubLogin": "tnorthcutt",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/14909)"
       },
       {
         "gitHubLogin": "tobias-1815"
@@ -9321,7 +9411,9 @@
         }
       },
       {
-        "gitHubLogin": "widoz"
+        "gitHubLogin": "widoz",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/21364)"
       },
       {
         "gitHubLogin": "willybahuaud",
@@ -9376,7 +9468,9 @@
         "notes": "There is no longer a yarnoj GitHub account. The only contribution from yarnoj was a PR (showing on the [merged PRs data](https://github.com/WordPress/gutenberg-license/blob/2e2a1524ebb917c4cf303d24494d459fe31f72d1/data/2021-04-16_merged-or-open-prs.json) as #13574), is now shown as being authored by GitHub user rjcdr (presumably because yarnoj changed their username to rjcdr). As a result, there no longer are any contributions from 'yarnoj', and we will seek consent from 'rjcdr' instead."
       },
       {
-        "gitHubLogin": "rjcdr"
+        "gitHubLogin": "rjcdr",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was to documentation (https://github.com/WordPress/gutenberg/pull/13574)"
       },
       {
         "gitHubLogin": "yoavf",
@@ -9390,7 +9484,9 @@
         }
       },
       {
-        "gitHubLogin": "yodiyo"
+        "gitHubLogin": "yodiyo",
+        "consentNeeded": false,
+        "notes":"Consent not needed because all contributions were to documentation (PRs: #14839, #14841)"
       },
       {
         "gitHubLogin": "youknowriad",
