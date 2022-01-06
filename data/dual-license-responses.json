@@ -45,7 +45,8 @@
       954018791,
       954034475,
       966646470,
-      966648900
+      966648900,
+      996040374
     ],
     "responses": [
       {
@@ -75,7 +76,15 @@
         "notes": "Because this comment did not follow the requested format, left a follow-up comment to remove any ambiguity: https://github.com/WordPress/gutenberg/issues/31913#issuecomment-948000002"
       },
       {
-        "unassociatedCommitterEmail": "adam@10up.com"
+        "unassociatedCommitterEmail": "adam@10up.com",
+        "comment": {
+          "gitHubLogin": "adamsilverstein",
+          "date": "2021-12-16T17:45:34Z",
+          "id": 996040374,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-996040374",
+          "text": "Hi @mchowning - I am the author of all Gutenberg commits from adam@10up.com.",
+          "preservedToJsonOn": "2022-01-06T19:23:43.540Z"
+        }
       },
       {
         "unassociatedCommitterEmail": "asmussen@gmail.com",
@@ -1951,7 +1960,7 @@
       {
         "gitHubLogin": "MaedahBatool",
         "consentNeeded": false,
-        "notes":"Consent not needed because all contributions were to documentation (PRs: #11656, #11657, #11675)"
+        "notes": "Consent not needed because all contributions were to documentation (PRs: #11656, #11657, #11675)"
       },
       {
         "gitHubLogin": "MaggieCabrera",
@@ -8596,7 +8605,7 @@
       {
         "gitHubLogin": "sharazghouri",
         "consentNeeded": false,
-        "notes":"Consent not needed because all contributions were to documentation (PRs: #6093, #10020)"
+        "notes": "Consent not needed because all contributions were to documentation (PRs: #6093, #10020)"
       },
       {
         "gitHubLogin": "shaunandrews",
@@ -8973,7 +8982,7 @@
       {
         "gitHubLogin": "thiagolcks",
         "consentNeeded": false,
-        "notes":"Consent not needed because all contributions were to documentation (PRs: #14321, #14355)"
+        "notes": "Consent not needed because all contributions were to documentation (PRs: #14321, #14355)"
       },
       {
         "gitHubLogin": "thisissandip",
@@ -9486,7 +9495,7 @@
       {
         "gitHubLogin": "yodiyo",
         "consentNeeded": false,
-        "notes":"Consent not needed because all contributions were to documentation (PRs: #14839, #14841)"
+        "notes": "Consent not needed because all contributions were to documentation (PRs: #14839, #14841)"
       },
       {
         "gitHubLogin": "youknowriad",
