@@ -16,57 +16,75 @@ json.claimedEmails.responses.forEach( response => {
 });
 
 const consentResponses = json.gitHubUserContributors.responses.reduce((acc, current) => {
-    let node;
-    switch (current.consent) {
-        case true:
-            node = acc.consenting
-            break;
-        case false:
-            node = acc.denying
-            break;
-        case undefined:
-            // We don't need a response from accounts that we do not need consent from
-            if (current.consentNeeded === false) {
-                node = acc.consentNotNeeded
-                if (current.notes === undefined) {
-                    const message = 'All entries where consent is not needed should have a \'notes\' property providing an explanation,'
-                        + ` but ${current.gitHubLogin} has no \'notes\'. Aborting...`
-                    console.log('\x1b[30m\x1b[41m' + message + '\x1b[0m\n');
-                    process.exit();
-                }
-            } else {
-              node = acc.noResponse
-            }
-            break;
+
+    const nodesToUpdate = [];
+
+    // Record whether they consented
+    if (current.consent === true) {
+        nodesToUpdate.push(acc.consenting);
+    } else if (current.consent === false) {
+        nodesToUpdate.push(acc.denying);
     }
-    if (node) {
+
+    // If they haven't consented, record whether we need their consent
+    if (current.consent !== true && current.consentNeeded === false) {
+
+        if (current.notes === undefined) {
+            const message = 'All entries where consent is not needed should have a \'notes\' property providing an explanation,'
+                + ` but ${current.gitHubLogin} has no \'notes\'. Aborting...`
+            console.log('\x1b[30m\x1b[41m' + message + '\x1b[0m\n');
+            process.exit();
+        }
+
+        nodesToUpdate.push(acc.consentNotNeeded);
+    }
+
+    // Record if we need their consent and they haven't responded
+    if (current.consent === undefined && current.consentNeeded !== false) {
+      nodesToUpdate.push(acc.needResponse);
+    }
+
+    nodesToUpdate.forEach(node => {
         node.push(current.gitHubLogin)
-    }
+    })
+
     return acc
 }, {
     consenting: [],
     denying: [],
-    noResponse: [],
+    needResponse: [],
     consentNotNeeded: []
 })
 
 const spaced = (obj) => `${obj}`.replace(/,/g, ', ')
 
+
+const deniedAndNeededConsent = consentResponses.denying.filter(element =>
+    !consentResponses.consentNotNeeded.includes(element)
+);
+const deniedButDidNotNeedConsent = consentResponses.denying.filter(element =>
+    consentResponses.consentNotNeeded.includes(element)
+);
+
 console.log('\n\x1b[30m\x1b[42m'+ 'Consenting users:' + '\x1b[0m\n' + spaced(consentResponses.consenting))
 console.log('\n*********\n')
 console.log('\n\x1b[30m\x1b[42m' + 'Usernames we do not need consent from:' + '\x1b[0m\n' + spaced(consentResponses.consentNotNeeded))
 console.log('\n*********\n')
-console.log('\x1b[30m\x1b[41m' + 'NON consenting users:' + '\x1b[0m\n' + spaced(consentResponses.denying))
+console.log('\x1b[30m\x1b[41m' + 'Users DENYING consent whose consent we needed:' + '\x1b[0m\n' + spaced(deniedAndNeededConsent))
 console.log('\n*********\n')
-console.log('\n\x1b[30m\x1b[43m' + 'Users who have not responded:' + '\x1b[0m\n' + spaced(consentResponses.noResponse))
+console.log('\x1b[30m\x1b[43m' + 'Users DENYING consent whose consent we do NOT need:' + '\x1b[0m\n' + spaced(deniedButDidNotNeedConsent))
+console.log('\n*********\n')
+console.log('\n\x1b[30m\x1b[43m' + 'Users from whom we need consent but have not responded:' + '\x1b[0m\n' + spaced(consentResponses.needResponse))
 
 // **********************************************************************************************
 
 console.log('\nConsent Responses')
 console.table({
     consenting: {number: consentResponses.consenting.length}, 
-    'denying consent': {number: consentResponses.denying.length},
-    'no response': {number: consentResponses.noResponse.length}
+    'consent denied AND needed consent': {number: deniedAndNeededConsent.length},
+    'consent denied AND did NOT need consent': {number: deniedButDidNotNeedConsent.length},
+    'Total that denied consent': {number: consentResponses.denying.length},
+    'still need response': {number: consentResponses.needResponse.length}
 })
 
 const notClaimed = json.claimedEmails.responses.filter(r => r.comment === undefined && r.consentNeeded !== false).length
@@ -97,8 +115,10 @@ from the [\`dual-license-responses.json\`](${jsonFilePath}) file.
 | Contributor Has | Number |
 | --- | --- |
 | Consented | ${consentResponses.consenting.length} |
-| Denied Consent | ${consentResponses.denying.length} |
-| No Response | ${consentResponses.noResponse.length} |
+| Total Denied Consent | ${consentResponses.denying.length} |
+| Number Who Denied Consent AND We Needed Consent From | ${deniedAndNeededConsent.length} |
+| Number Who Denied Consent But We Do NOT Need Their Consent | ${deniedButDidNotNeedConsent.length} |
+| Still Waiting For Consent | ${consentResponses.needResponse.length} |
 
 ### Users Who Have Consented
 ${spaced(consentResponses.consenting)}
@@ -106,11 +126,14 @@ ${spaced(consentResponses.consenting)}
 ### Usernames We Do Not Need Consent From (check "notes" in [\`dual-license-responses.json\`](${jsonFilePath}))
 ${spaced(consentResponses.consentNotNeeded)}
 
-### Users Who Have Denied Consent
-${spaced(consentResponses.denying)}
+### Users Who Denied Consent But Who We Do Not Need Their Consent (check "notes" in [\`dual-license-responses.json\`](${jsonFilePath}))
+${spaced(deniedButDidNotNeedConsent)}
+
+### Users Who Denied Consent And We Needed Their Consent
+${spaced(deniedAndNeededConsent)}
 
 ### Users Who Have Not Responded Yet
-${spaced(consentResponses.noResponse)}
+${spaced(consentResponses.needResponse)}
 `
 
 const statusFile = 'status.md'
