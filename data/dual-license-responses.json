@@ -46,7 +46,11 @@
       954034475,
       966646470,
       966648900,
-      996040374
+      996040374,
+      1064509989,
+      1064524289,
+      1064655585,
+      1072732554
     ],
     "responses": [
       {
@@ -153,7 +157,15 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "devin@wordimpress.com"
+        "unassociatedCommitterEmail": "devin@wordimpress.com",
+        "comment": {
+          "gitHubLogin": "DevinWalker",
+          "date": "2022-03-10T21:13:32Z",
+          "id": 1064509989,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-1064509989",
+          "text": "Hi @mchowning - I am the author of all Gutenberg commits from devin@wordimpress.com\nNote: that email is no longer in use or active, but I am still the author of commits from the past associated with that email address.",
+          "preservedToJsonOn": "2022-03-18T19:21:17.491Z"
+        }
       },
       {
         "unassociatedCommitterEmail": "eduardo.toledo@automattic.com",
@@ -541,7 +553,15 @@
         }
       },
       {
-        "unassociatedCommitterEmail": "vitor@paladini.in"
+        "unassociatedCommitterEmail": "vitor@paladini.in",
+        "comment": {
+          "gitHubLogin": "vtrpldn",
+          "date": "2022-03-10T21:33:00Z",
+          "id": 1064524289,
+          "path": "/WordPress/gutenberg/issues/31913#issuecomment-1064524289",
+          "text": "I am the author of all Gutenberg commits from vitor@paladini.in",
+          "preservedToJsonOn": "2022-03-18T19:21:17.692Z"
+        }
       },
       {
         "unassociatedCommitterEmail": "wendy.chen@automattic.com",
@@ -1337,7 +1357,9 @@
       1022674311,
       1022904326,
       1023009886,
-      1052208166
+      1052208166,
+      1064254683,
+      1064697217
     ],
     "responses": [
       {
@@ -3895,7 +3917,15 @@
         }
       },
       {
-        "gitHubLogin": "danhort"
+        "gitHubLogin": "danhort",
+        "consent": true,
+        "comment": {
+          "date": "2022-03-10T16:27:45Z",
+          "id": 1064254683,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-1064254683",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2022-03-18T19:21:42.045Z"
+        }
       },
       {
         "gitHubLogin": "danielFangstrom",
@@ -8976,7 +9006,15 @@
         "gitHubLogin": "struna"
       },
       {
-        "gitHubLogin": "sunnyssr"
+        "gitHubLogin": "sunnyssr",
+        "consent": true,
+        "comment": {
+          "date": "2022-03-11T02:04:00Z",
+          "id": 1064697217,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-1064697217",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2022-03-18T19:21:42.247Z"
+        }
       },
       {
         "gitHubLogin": "supernovia",
