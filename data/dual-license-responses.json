@@ -1359,7 +1359,9 @@
       1023009886,
       1052208166,
       1064254683,
-      1064697217
+      1064697217,
+      1076267163,
+      1077284587
     ],
     "responses": [
       {
@@ -5228,7 +5230,15 @@
         }
       },
       {
-        "gitHubLogin": "herregroen"
+        "gitHubLogin": "herregroen",
+        "consent": true,
+        "comment": {
+          "date": "2022-03-23T11:33:52Z",
+          "id": 1076267163,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-1076267163",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2022-03-31T13:45:53.231Z"
+        }
       },
       {
         "gitHubLogin": "hideokamoto",
