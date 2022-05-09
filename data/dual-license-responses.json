@@ -6070,7 +6070,9 @@
         }
       },
       {
-        "gitHubLogin": "jpjjulie"
+        "gitHubLogin": "jpjjulie",
+        "consentNeeded": false,
+        "notes": "Consent not needed because only contribution was a PR that has since been closed. (https://github.com/WordPress/gutenberg/pull/17915)"
       },
       {
         "gitHubLogin": "jrchamp",
