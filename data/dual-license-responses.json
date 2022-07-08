@@ -1368,7 +1368,10 @@
       1138389356,
       1140165552,
       1153141020,
-      1158538768
+      1158538768,
+      1164703846,
+      1165508182,
+      1166741068
     ],
     "responses": [
       {
@@ -1796,7 +1799,15 @@
       {
         "gitHubLogin": "IslamYehia1",
         "consentNeeded": false,
-        "notes": "Only had 1 PR (#28415), and that PR was closed without being merged."
+        "notes": "Only had 1 PR (#28415), and that PR was closed without being merged.",
+        "consent": true,
+        "comment": {
+          "date": "2022-06-27T01:59:00Z",
+          "id": 1166741068,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-1166741068",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2022-07-08T16:56:16.539Z"
+        }
       },
       {
         "gitHubLogin": "ItsJonQ",
@@ -3585,7 +3596,15 @@
         }
       },
       {
-        "gitHubLogin": "caxco93"
+        "gitHubLogin": "caxco93",
+        "consent": true,
+        "comment": {
+          "date": "2022-06-23T17:52:36Z",
+          "id": 1164703846,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-1164703846",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2022-07-08T16:56:16.136Z"
+        }
       },
       {
         "gitHubLogin": "cburton4",
@@ -6808,7 +6827,15 @@
         }
       },
       {
-        "gitHubLogin": "mayukojpn"
+        "gitHubLogin": "mayukojpn",
+        "consent": true,
+        "comment": {
+          "date": "2022-06-24T12:05:57Z",
+          "id": 1165508182,
+          "path": "/WordPress/gutenberg/issues/31893#issuecomment-1165508182",
+          "text": "I irrevocably consent for my past contributions to Gutenberg to be dual-licensed under the GNU General Public License v2.0 and the Mozilla Public License version 2.0.",
+          "preservedToJsonOn": "2022-07-08T16:56:16.338Z"
+        }
       },
       {
         "gitHubLogin": "mberard-smartfire"
